@@ -1,0 +1,420 @@
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 4000px;
+    width: 800px;
+}
+
+p, a{
+    height: 60px;
+}
+
+
+#div1 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 755px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-image: url('../IMG/capa.jpg ');
+    background-repeat: no-repeat;
+    background-size: 1550px 1550px;
+    background-position-y: -550px;
+}
+#div2 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%);
+}
+
+#caixa1{
+    color: white;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #31151A ;
+    background-color: #31151A;
+    margin: 100px 0 0 -1080px;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#hist {
+    color: white;
+    margin: 200px 0 0 -190px;
+    position: absolute;
+    font-size: 26.5px;
+    text-align: center;
+    padding: 20px;
+    width: 1200px;
+    height: 200px;
+    background-color: #31151a6a;
+}
+
+#caixa2 {
+    color: white;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    border: 2px solid #31151A ;
+    background-color: #31151A;
+    margin: 440px 0 0 1080px;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#fund {
+    color: white;
+    margin: 550px 0 0 590px;
+    position: absolute;
+    font-size: 26.5px;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+    background-color: #31151a66;
+}
+
+#veio {
+    position: absolute;
+    margin: 435px 0 0 -700px;
+    width: 330px;
+    height: 330px;
+}
+
+#div3 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%); 
+}
+
+#titulo3{
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    margin-top: 75px;
+    text-align: center;
+}
+
+#carro{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 180px;
+}
+
+#escritacarro{
+    position: absolute;
+    font-size: 35px;
+    margin-top: 620px;
+    text-align: center;
+}
+
+#saibamais {
+    text-decoration: underline rgb(255, 255, 255);
+    position: absolute;
+    font-size: 35px;
+    margin-top: 702px;
+    margin-left: -745px;
+}
+
+#div4 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%); 
+}
+
+#produtos{ 
+    color: rgb(255, 255, 255);
+    text-decoration: underline rgb(255, 255, 255);
+    position: absolute;
+    font-size: 45px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#img9 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 170px;
+    margin-right: 900px;
+}
+
+#classico {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 420px;
+    margin-right: 900px;
+}
+
+#img10 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 170px;
+    margin-right: 0px;
+}
+
+#reale {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 420px;
+    margin-right: 0px;
+}
+
+#img12 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 170px;
+    margin-right: -900px;
+}
+
+#furore {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 420px;
+    margin-right: -900px;
+}
+
+#img15 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 490px;
+    margin-right: 900px;
+}
+
+#fulmine {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 730px;
+    margin-right: -900px;
+}
+
+#img17 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 490px;
+    margin-right: 0px;
+}
+
+#eleganza {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 730px;
+    margin-right: 900px;
+}
+
+#img19 {
+    position: absolute;
+    width: 260px;
+    height: 225px;
+    margin-top: 490px;
+    margin-right: -900px;
+}
+
+#aurora {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 30px;
+    margin-top: 730px;
+    margin-right: -2px;
+}
+
+#div5 {
+    margin-top: 5px;
+    width: 1500px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background: #36181E;
+    background: linear-gradient(180deg,rgba(54, 24, 30, 1) 0%, rgba(84, 40, 49, 1) 50%);
+}
+
+#titulo4{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -860px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#Brasil{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -1180px;
+}
+
+#pt{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -800px;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#unidade{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: -905px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#voce{
+    position: absolute;
+    margin-top: 405px;
+    margin-left: -1090px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#rede{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 500px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+#entre{
+    position: absolute;
+    margin-top: 405px;
+    margin-left: 675px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#cont{
+    color: white;
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    background-color: #31151A;
+    border-radius: 50px;
+    margin-top: 470px;
+    margin-left: -885px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#vela{
+    font-size: 15px;
+}
+
+#logos{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 680px;
+}
+
+#escritafim{
+    position: absolute;
+    margin-top: 750px;
+    font-size: 22px;
+    margin-left: -1010px;
+}
+
+#escritafim2{
+    position: absolute;
+    margin-top: 750px;
+    font-size: 22px;
+    margin-left: 458px;
+    text-decoration: underline rgb(255, 255, 255);
+}
+
+#vlr {
+    color: white;
+    margin: 150px 0 0 -748px;
+    position: absolute;
+    font-size: 40px;
+}
+
+#apem {
+    color: white;
+    margin: 336px 0 0 -748px;
+    position: absolute;
+    font-size: 27.5px;
+}
+
+#pee {
+    color: white;
+    margin: 710px 0 0 1060px;
+    position: absolute;
+    font-size: 18px;
+}
+
+p {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: rgb(195, 132, 132); 
+}
+
+#img0 {
+    position: absolute;
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#img1 {
+    margin: 10px 0 0 0;
+}
+
+
+#img2 {
+    margin: -8px 0 0 0;
+}
